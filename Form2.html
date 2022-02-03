@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic form 2</title>
+    <style>
+        h1{
+        font-family: Arial, Helvetica, sans-serif; 
+        color: rgb(46, 46, 128); 
+        }
+        label{
+            font-size: 30px;
+            line-height: 85px;
+            width: 200px;
+            display: inline-block;
+        }
+        input{
+            padding: 10px 10px;
+        }
+        ul{
+            list-style-type: none;
+        }
+        select{
+            width: 204px;
+            height: 30px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <form>
+        <ul>
+        <li><h1>Contact Form</h1></li>
+        <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" size="80">
+        </li>
+        <li>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="Email" size="80">
+        </li>
+        <li>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="password" size="80">
+        </li>
+        <li>
+            <label for="num">Number:</label>
+            <input type="number" id="num" name="number" size="80">
+        </li>
+        <li>
+            <label for="gender">Email:</label>
+            <label for="male" style="width: 70px; display: inline-block;">Male</label>
+            <input type="radio"  name="gender" value="Male" id="male">
+            <label for="female" style="width: 95px; display: inline-block;">Female</label>
+            <input type="radio"  name="gender" value="Female" id="female">
+        </li>
+        <li>
+            <label for="dob">Date of Birth:</label>
+            <select name="date">
+                    <option value="Date">Date</option>
+            </select>
+            <select name="month">
+                <option value="month">Month</option>
+            </select>
+            <select name="year">
+                <option value="year">Year</option>
+            </select>
+        </li>
+        </ul>
+    </form>
+</body>    
+</html>
